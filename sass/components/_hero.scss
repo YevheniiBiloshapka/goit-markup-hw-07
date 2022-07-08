@@ -3,17 +3,16 @@
   padding-bottom: 200px;
   text-align: center;
 
-  background-image: linear-gradient(
+  background: linear-gradient(
       to top,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../../images/hero.jpg);
+    url(../../images/heroimg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 .hero__text {
   width: 700px;
