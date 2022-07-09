@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.project {
+.project__item {
   display: block;
   width: 370px;
   height: 404px;
@@ -20,14 +20,14 @@
   }
 }
 
-.project:hover,
-.project:focus {
+.project__item:hover,
+.project__item:focus {
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project:hover .project__description--animate {
+.project__item:hover .project__description--animate {
   transform: translateY(0);
   opacity: 1;
   top: 0;
