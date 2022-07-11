@@ -254,6 +254,8 @@ body {
 }
 
 .hero {
+  max-width: 1600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -786,8 +788,7 @@ body {
   height: 404px;
   margin: 0 30px 30px 0;
   background: #ffffff;
-  border: 1px solid #eeeeee;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project__item:nth-child(3n) {
   margin-right: 0;
@@ -798,7 +799,6 @@ body {
 
 .project__item:hover,
 .project__item:focus {
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -840,6 +840,7 @@ body {
 }
 
 .project__tumb {
+  border: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 
